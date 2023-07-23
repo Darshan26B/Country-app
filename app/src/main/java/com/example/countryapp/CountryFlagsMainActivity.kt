@@ -12,6 +12,8 @@ class CountryFlagsMainActivity : AppCompatActivity() {
         binding = ActivityCountryFlagsMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+
+
         var pos = intent.getIntExtra("pos", 0)
         var modal = MainActivity.CountryList[pos]
 

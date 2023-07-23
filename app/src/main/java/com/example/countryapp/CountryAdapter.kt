@@ -46,5 +46,10 @@ class CountryAdapter(countryModel: ArrayList<CountryModel>, clickItem: CountryCl
         }
 
     }
+    fun setfilteredList(list: ArrayList<CountryModel>) {
+        this.list = list
+        notifyDataSetChanged()
+    }
 
- }
+
+}

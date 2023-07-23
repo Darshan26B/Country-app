@@ -33,16 +33,9 @@
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
         android:layout_weight="1"
+        android:queryBackground="@null"
         android:iconifiedByDefault="false"
-        android:background="@null"
-        android:queryHint="Search Country"
-        android:inputType="text"/>
-
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginRight="10dp"
-        android:layout_gravity="center"/>
+        android:queryHint="Search Country" />
 
    </LinearLayout>
 
